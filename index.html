@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toast Notification</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="buttons">
+        <button onclick="showToast(successMsg)" style="background-color: rgb(38, 161, 38);">Success</button>
+        <button onclick="showToast(errorMsg)" style="background-color: rgb(255, 26, 26);">Error</button>
+        <button onclick="showToast(invalidMsg)" style="background-color: orange;">Invalid</button>
+    </div>
+
+    <div id="toastBox"></div>
+
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/9689c84a60.js" crossorigin="anonymous"></script>
+</body>
+</html>
