@@ -1,4 +1,4 @@
-# My Toast Notification App
+# Toast Notification WebApp
 
 A simple web-based Toast Notification app that displays customizable notification messages.
 
